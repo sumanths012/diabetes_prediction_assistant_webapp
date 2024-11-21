@@ -1,6 +1,6 @@
-streamlit==1.25.0
-numpy==1.26.0
-opencv-python-headless==4.8.1.78
-Pillow==10.1.0
-pytesseract==0.3.10
-scikit-learn==1.3.1
+Pillow>=7.1.0,<10.0
+streamlit>=1.40.0
+numpy
+opencv-python-headless
+pytesseract
+scikit-learn
