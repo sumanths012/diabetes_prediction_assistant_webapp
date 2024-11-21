@@ -1,8 +1,8 @@
-numpy==1.26.4
+numpy
 pickle-mixin==1.0.2
 streamlit==1.40.0
-scikit-learn==1.5.2
-protobuf==3.20.3
+scikit-learn>=1.3.2
+protobuf>=3.20.3
 pytesseract==0.3.13
-opencv-python==4.10.0.84
-libgl1-mesa-glx
+opencv-python-headless==4.8.0.76
+pillow
