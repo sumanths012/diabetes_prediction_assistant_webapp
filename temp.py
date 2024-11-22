@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 # Set up pytesseract path if needed
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Set page configuration
 st.set_page_config(page_title="Diabetes Prediction Assistant", layout="wide", page_icon="🧑‍⚕️")
