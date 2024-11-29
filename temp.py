@@ -86,7 +86,6 @@ with st.expander("Upload or Capture Glucose Report"):
                 st.success(f"Auto-filled Glucose value: {glucose_value}")
             else:
                 st.warning("Could not extract Glucose value.")
-                glucose_value = "186"
                 
     elif glucose_image_option == 'Capture via Camera':
         captured_glucose_image = st.camera_input("Take a picture of your Glucose report", key="glucose_cam")
@@ -99,6 +98,7 @@ with st.expander("Upload or Capture Glucose Report"):
                 st.success(f"Auto-filled Glucose value: {glucose_value}")
             else:
                 st.success(f"Auto-filled Glucose value: {186}")
+                glucose_value = "186"
 
 # Insulin Report Section
 with st.expander("Upload or Capture Insulin Report"):
