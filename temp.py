@@ -12,7 +12,7 @@ pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
 st.set_page_config(page_title="Diabetes Prediction Assistant", layout="wide", page_icon="🧑‍⚕️")
 
 # Load the saved diabetes model
-diabetes_model = pickle.load(open("diabetes_model_svc.sav", "rb"))
+diabetes_model = pickle.load(open("diabetes_model.sav", "rb"))
 
 # Function to calculate BMI
 def calculate_bmi(height_cm, weight_kg):
