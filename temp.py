@@ -96,8 +96,7 @@ with st.expander("Upload or Capture Glucose Report"):
                 glucose_value = glucose_data['Glucose']
                 st.success(f"Auto-filled Glucose value: {glucose_value}")
             else:
-                st.success(f"Auto-filled Glucose value: {186}")
-                glucose_value = "186"
+                st.warning("Could not extract Glucose value.")
 
 # Insulin Report Section
 with st.expander("Upload or Capture Insulin Report"):
@@ -124,8 +123,7 @@ with st.expander("Upload or Capture Insulin Report"):
                 insulin_value = insulin_data['Insulin']
                 st.success(f"Auto-filled Insulin value: {insulin_value}")
             else:
-                st.success(f"Auto-filled Insulin value: {8.79}")
-                insulin_value = "8.79"
+                st.warning("Could not extract Insulin value.")
 
 # Blood Pressure Report Section
 with st.expander("Upload or Capture Blood Pressure Report"):
